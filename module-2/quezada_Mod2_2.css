@@ -26,9 +26,23 @@ address {
     text-align: center;
 }
 
-p.PL1 {
+a {
     text-decoration: none;
+    font-style: normal;
     font-weight: bold;
     font-size: 1.25em;
     color: #4F3674;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+a:visited {
+    background-color: silver;
+}
+
+p.intro {
+    text-indent: 2em;
 }
