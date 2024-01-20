@@ -3,8 +3,7 @@ h1 {
 }
 
 #dLeft, #dRight {
-    align-items: center;
-    display: inline-block;
+    display: inline-table;
     width: 45%;
 }
 
@@ -43,6 +42,7 @@ ol {
     border: 1px red;
     border-style: dashed;
     border-radius: 15px;
+    margin-left: 50px;
 }
 
 ul {
