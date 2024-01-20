@@ -11,3 +11,7 @@ div.bottom {
     margin-top: 60%;
     width: 100%;
 }
+
+a {
+    text-align: right;
+}
