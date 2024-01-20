@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+div.left, div.right{
+    display: inline;
+    width: 45%;
+}
+
+div.bottom {
+    margin-top: 60%;
+    width: 100%;
+}
