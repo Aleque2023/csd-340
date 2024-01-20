@@ -35,6 +35,7 @@ li {
 
 ol {
     padding: 10px;
+    list-style-position: inside;
 }
 
 #dRight {
@@ -45,6 +46,7 @@ ol {
 ul {
     padding: 10px;
     list-style: upper-roman;
+    list-style-position: inside;
 }
 
 a:hover {
