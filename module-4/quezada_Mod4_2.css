@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    color: rgba(rgb(146, 15, 21), green, blue, alpha);
 }
 
 #image-gallery {
@@ -9,8 +10,31 @@ h1 {
 
 h3 {
     text-align: center;
+    color: rgba(rgb(151, 86, 0), green, blue, alpha);
 }
 
 #dLast {
     text-align: right;
+}
+
+#bookOne {
+    display: inline-flex;
+}
+
+#bookTwo {
+    display: inline-flex;
+}
+
+.bookThree {
+    display: inline-flex;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(rgb(12, 117, 236), green, blue, alpha);
+}
+
+figure {
+    text-align: center;
 }
