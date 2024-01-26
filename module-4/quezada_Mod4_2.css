@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+}
+
+h3 {
+    text-align: center;
+}
+
+#dLast {
+    text-align: right;
+}
