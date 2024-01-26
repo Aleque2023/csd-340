@@ -3,7 +3,7 @@ h1 {
     color: rgba(rgb(146, 15, 21), green, blue, alpha);
 }
 
-#image-gallery {
+.image-gallery {
     margin-top: 10%;
     display: grid;
 }
@@ -17,11 +17,11 @@ h3 {
     text-align: right;
 }
 
-#bookOne {
+.bookOne {
     display: inline-flex;
 }
 
-#bookTwo {
+.bookTwo {
     display: inline-flex;
 }
 
