@@ -1,40 +1,35 @@
 h1 {
     text-align: center;
-    color: rgba(rgb(146, 15, 21), green, blue, alpha);
+    color: rgba(255,0,0,1);
 }
 
-.image-gallery {
+#image-gallery {
     margin-top: 10%;
     display: grid;
+    grid-template-columns: auto auto auto auto;
+    left: 50%;
 }
 
 h3 {
     text-align: center;
-    color: rgba(rgb(151, 86, 0), green, blue, alpha);
+    color: rgba(44,30,123,1);
 }
 
 #dLast {
     text-align: right;
 }
 
-.bookOne {
-    display: inline-flex;
-}
-
-.bookTwo {
-    display: inline-flex;
-}
-
-.bookThree {
-    display: inline-flex;
-}
-
 figcaption {
     font-style: italic;
     font-size: .75em;
-    color: rgba(rgb(12, 117, 236), green, blue, alpha);
+    color: rgba(111,84,2,1);
 }
 
 figure {
     text-align: center;
+}
+
+#bookOne, #bookTwo, #bookThree{
+    border: solid 5px; color: blueviolet;
+    border-radius: 0px;
 }
