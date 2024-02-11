@@ -110,3 +110,7 @@ div.movies td {
     border-color: #ddd;
     padding: 8px;
 }
+
+table {
+    width: 100%;
+}
