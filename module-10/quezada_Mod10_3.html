@@ -1,12 +1,27 @@
 <!--Alejandro Quezada
 Module 10.3 - Assignment: JavaScript Exercise, Part 2
-Feb 19 2024-->
+Feb 22 2024-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>
             CSD 340 Web Development with HTML and CSS
         </title>
+
+        <script>
+            function changeimgOne() {
+                let image = document.getElementById("one");
+                image.src="mod10_images/pic1_02.jpg"
+                image.width="400"
+                image.height="300"
+            }
+            function changeimgTwo() {
+                let image = document.getElementById("two");
+                image.src="mod10_images/pic2_02.jpg"
+                image.width="400"
+                image.height="300"
+            }
+        </script>
     </head>
 
     <body>
@@ -15,27 +30,26 @@ Feb 19 2024-->
                 Assignment 10.3: JavaScript - Part 2
             </h1>
         </header>
-
-        <div id="container1">
+        <div id="container1" style="margin-left: 10px;">
             <figure>
-                <img src="#" alt="Hover over this first image!" width="300" height="300">
+                <img id="one" src="mod10_images/pic1_01.jpg" alt="Click the first pic!" width="400" height="300" onclick="changeimgOne()">
                 <figcaption>
                     <p><span style="font-style: italic; font-size:10px">First Image That Changes</span></p>
                 </figcaption>
             </figure>
-            <p>Hover over the image to see what it changes into!</p>
+            <p style="margin-left:100px">Click the image to see what it changes into!</p>
         </div>
 
         <br><br><br>
 
-        <div id="container2">
+        <div id="container2" style="margin-left: 10px">
             <figure>
-                <img src="#" alt="Hover over this second image!" width="300" height="300">
+                <img id="two" src="mod10_images/pic2_01.jpg" alt="Click the second pic!" width="400" height="300" onclick="changeimgTwo()">
                 <figcaption>
                     <p><span style="font-style: italic; font-size:10px">Second Image That Changes</span></p>
                 </figcaption>
             </figure>
-            <p>Hover over this second image!</p>
+            <p style="margin-left:100px">Click the second picture!</p>
         </div>
        
         <footer>
