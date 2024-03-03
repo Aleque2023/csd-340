@@ -1,5 +1,5 @@
 <!-- Alejandro Quezada : Module 11.2 Assignment - JavaScript Exercise, Part 3 
-3/2/2024           -->
+3/3/2024           -->
 
 <!DOCTYPE html>
 
@@ -10,22 +10,26 @@
         </title>
 
         <script>
-            let disTxt = "<ul>"
+            let grab, send;
             const items = [];
-            function addList() {
-                items.push()
+            function addList(txt) {
+                document.getElementById("last").disabled = false;
+                grab = document.getElementById('txt');
+                send = grab.value;
+                items.push(send);
+                alert(send + " was added to the array!")
             }
             function delLast() {
-
+                items.pop();
             }
             function dis() {
-                for (let i = 0; i < item.length; i++) {
-                    disTxt += "<li>" + items[i] + "</li>"
+                let b = 1;
+                let end = "";
+                for (let a = 0; a < items.length; a++) {
+                    end += ('Item ' + b + ' ' + items[a] + '<br>');
+                    b += 1;
                 }
-                disTxt += "<ul>"
-            }
-            function res() {
-
+                document.getElementById("output").innerHTML = end;
             }
         </script>
     </head>
@@ -35,14 +39,15 @@
             Assignment 11.2: JavaScript - Part 3
         </h1>
 
-        <input type="text">
+        <input type="text" id="txt">
         <br><br>
 
         <button type="button" onclick="addList()">Add</button>
-        <button type="button" onclick="delLast()">Delete Last Entry</button>
+        <button id="last" type="button" onclick="delLast()" disabled="true">Delete Last Entry</button>
         <button type="button" onclick="dis()">Display</button>
-        <button type="reset" onclick="res()">Reset</button>
 
         <hr>
+
+        <p id="output"></p>
     </body>
 </html>
